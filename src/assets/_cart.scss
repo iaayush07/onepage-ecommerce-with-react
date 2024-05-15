@@ -1,0 +1,39 @@
+.select-img-wrapper {
+  border-radius: 16px;
+  overflow: hidden;
+  aspect-ratio: 3/3;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.discount-label {
+  border-radius: 4px;
+  background-color: rgba($primary, 0.2);
+  color: $primary;
+}
+.cart-add-wrapper {
+  button {
+    height: 40px;
+    width: 40px;
+    color: $primary;
+    font-size: 20px;
+    background-color: #f7f8fd;
+  }
+  input {
+    height: 40px;
+    width: 80px;
+    background-color: #f7f8fd;
+    text-align: center;
+    &:focus-visible {
+      outline: none;
+    }
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+}
